@@ -4,17 +4,17 @@ This is project build a [Scylla](scylladb.com)+[KairosDB](kairosdb.github.io) st
 
 Run
 ```
-sudo docker run --name some-scylla-kairos -d tzachl/scylla-and-kairos
+sudo docker run --name some-scylla-kairos -d tzachl/scylla-and-kairosdb
 ```
 
 Run CQLsh
 ```
-$ sudo docker exec -it some-scylla-kairos cqlsh
+sudo docker exec -it some-scylla-kairos cqlsh
 ```
 
 Run nodetool
 ```
-$ sudo docker exec -it some-scylla-kairos nodetool status
+sudo docker exec -it some-scylla-kairos nodetool status
 ```
 
 Get container IP
