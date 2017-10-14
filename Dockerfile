@@ -1,4 +1,4 @@
-FROM scylladb/scylla:1.7.4
+FROM scylladb/scylla:2.0.0
 
 #install nc
 RUN yum install nc -y
